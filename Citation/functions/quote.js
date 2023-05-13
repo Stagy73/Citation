@@ -42,8 +42,8 @@ const Citation = () => {
     <div>
       {quote ? (
         <div>
-          <p>{quote.quote}</p>
-          <p>- {quote.author}</p>
+          <p className="displayText">{quote.quote}</p>
+          <p className="displayAuthor">- {quote.author}</p>
         </div>
       ) : (
         <p>Loading...</p>
