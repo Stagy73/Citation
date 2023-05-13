@@ -1,5 +1,5 @@
 import "./App.css";
-import Citation from "./Citation";
+import Citation from "../functions/quote.js";
 
 function App() {
   return (
